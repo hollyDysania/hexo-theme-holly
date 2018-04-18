@@ -12,12 +12,14 @@ import {
   Row,
   Col,
   Carousel,
-  CarouselItem
+  CarouselItem,
+  Card
 } from 'element-ui';
 
 import '@/styles/element-ui-vars.scss';
 import { VueConstructor } from 'vue';
 import { Vue } from 'vue/types/vue';
+
 
 function install(Vue: VueConstructor<Vue>, options: { size: string }) {
   Vue.prototype.$ELEMENT = options;
@@ -36,6 +38,7 @@ function install(Vue: VueConstructor<Vue>, options: { size: string }) {
   Vue.use(Col);
   Vue.use(Carousel);
   Vue.use(CarouselItem);
+  Vue.use(Card);
 }
 
 export const installElementUI = { install };

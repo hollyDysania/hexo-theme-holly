@@ -10,7 +10,7 @@ background:
   background_color: '#ffffff'
 
   # Custom Background Picture
-  enable_picture: true
+  enable_picture: false
   url: /static/images/miku.jpg
   css_size: cover
   css_position: 50%

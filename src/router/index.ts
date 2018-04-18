@@ -9,6 +9,11 @@ export const router = new Router({
   routes: [
     {
       path: '/',
+      name: 'welcome-page',
+      component: () => import('@/views/pages/welcome/welcomePage.vue')
+    },
+    {
+      path: '/home',
       name: 'home-page',
       component: () => import('@/views/pages/home/HomePage.vue')
     },
