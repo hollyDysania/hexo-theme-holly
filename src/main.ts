@@ -7,8 +7,7 @@ import { installElementUI } from '@/vue-install/lite-element-ui'
 import { installNProgress } from '@/vue-install/lite-nprogress'
 import { installFormatDirective } from '@/vue-install/lite-moment-format'
 import { registerAsyncDataHook } from '@/vue-install/lite-register-vue-class-component-hook'
-import 'vue2-animate/dist/vue2-animate.min.css' 
-
+import 'animate.css'
 Vue.use(registerAsyncDataHook)
 Vue.use(installElementUI, { size: 'small' })
 Vue.use(installNProgress)

@@ -107,6 +107,10 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+animate.css@^3.6.1:
+  version "3.6.1"
+  resolved "http://registry.npm.taobao.org/animate.css/download/animate.css-3.6.1.tgz#4ea8a48556378bc8d7535224296c4c0dac9229de"
+
 ansi-html@0.0.7:
   version "0.0.7"
   resolved "http://registry.npm.taobao.org/ansi-html/download/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
@@ -1992,7 +1996,7 @@ element-theme-chalk@^2.0.7:
   version "2.3.4"
   resolved "http://registry.npm.taobao.org/element-theme-chalk/download/element-theme-chalk-2.3.4.tgz#37b45f83c9814902d6600c278ca8779a87b6edda"
 
-element-ui@^2.0.7:
+element-ui@^2.3.4:
   version "2.3.4"
   resolved "http://registry.npm.taobao.org/element-ui/download/element-ui-2.3.4.tgz#d6d6b057a4acf4caa5e9fd9f1a78bd89c8845e4f"
   dependencies:
